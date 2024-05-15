@@ -1,3 +1,8 @@
+# Why this fork?
+
+[Tag 0.6.0](https://github.com/kylef/JSONSchema.swift/releases/tag/0.6.0) released in March 2021 has a bug in it. This bug was later fixed in the master branch on revision 8c7ec156dde09715d8d2ed83cc8fe6b1ba90648c, but the maintainer of the repo failed to release a new release with the fix in it. To avoid having to refer to a specific repo revision the repo was forked and a new release made here.
+
+
 # JSON Schema
 
 An implementation of [JSON Schema](http://json-schema.org/) in Swift.
