@@ -12,7 +12,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/kylef/PathKit.git", .upToNextMajor(from: "1.0.0")),
-    .package(url: "https://github.com/kylef/Spectre.git", exact: "0.10.1")
+    .package(url: "https://github.com/kylef/Spectre.git", .exact("0.10.1")),
   ],
   targets: [
     .target(name: "JSONSchema", dependencies: [], path: "Sources"),
